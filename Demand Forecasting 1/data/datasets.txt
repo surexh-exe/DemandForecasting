@@ -1,0 +1,5 @@
+Download the datasets from the provided Drive link.
+Dataset : -
+
+Rossmann Dataset - https://drive.google.com/file/d/18kD9cs8JAQJk1c70h4V62g5Sd0knD_xf/view?usp=sharing
+Store Dataset :- https://drive.google.com/file/d/1tt_qa0B6j2b7PgDH1hIqqU5yT9ASiq5O/view?usp=sharing
