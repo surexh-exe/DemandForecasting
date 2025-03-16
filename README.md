@@ -1,136 +1,119 @@
-Demand Forecasting for Grocery Stores with Sales Advisor Chatbot
+# 📊 Demand Forecasting for Grocery Stores with AI-powered Sales Advisor 🤖  
 
-📌 Introduction
+![Sales Forecasting]([https://your-image-url-here.com](https://images.pexels.com/photos/7947758/pexels-photo-7947758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)) 
 
-This project provides a demand forecasting system for grocery stores, leveraging various machine learning and deep learning models such as XGBoost, ARIMA, and Prophet. Additionally, it includes an AI-powered Sales Advisor Chatbot that provides insights and recommendations based on sales data trends.
+## 📌 Project Overview  
+This project leverages **machine learning** and **deep learning** techniques to **predict grocery store sales** based on historical data. It also integrates an **AI-powered Sales Advisor Chatbot** using **Gemini AI**, which provides strategic insights to optimize inventory and sales planning.  
 
-⚡ Features
+## 🚀 Features  
+✅ **Multiple Forecasting Models:** ARIMA, Prophet, XGBoost, LSTM  
+✅ **Data Preprocessing & Visualization:** Detects trends and anomalies  
+✅ **AI-Powered Chatbot:** Generates sales insights using Gemini AI  
+✅ **Interactive Graphs & Reports:** Helps in decision-making  
 
-Sales Data Preprocessing: Cleans and processes store sales data.
+---
 
-Forecasting Models: Uses ARIMA, Prophet, and XGBoost for time-series forecasting.
+## 🛠️ Tech Stack  
+- **Machine Learning Models:** ARIMA, Prophet, XGBoost, LSTM  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly  
+- **Deep Learning:** TensorFlow (LSTM)  
+- **AI Chatbot:** Gemini AI  
+- **Development Tools:** Python, Jupyter Notebook  
 
-Data Visualization: Generates sales trend plots for better insights.
+---
 
-AI-Powered Chatbot: Uses Gemini AI to provide recommendations based on trends.
+## 📂 Project Structure  
+```
+📦 Demand-Forecasting-Grocery
+ ┣ 📂 data               # Dataset files (sales & store data)
+ ┣ 📂 Images             # Generated plots & visualizations
+ ┣ 📜 forecasting.py     # Core script for training models
+ ┣ 📜 requirements.txt   # Required Python packages
+ ┗ 📜 README.md          # Project documentation
+```
 
-🛠 Installation & Setup
+---
 
-1️⃣ Prerequisites
+## 🔧 Installation & Setup  
 
-Ensure you have the following installed:
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/demand-forecasting.git
+cd demand-forecasting
+```
 
-Python 3.8+
-
-Pip
-
-Virtual environment (optional but recommended)
-
-2️⃣ Clone the Repository
-
-git clone https://github.com/yourusername/demand-forecasting-chatbot.git
-cd demand-forecasting-chatbot
-
-3️⃣ Create a Virtual Environment (Optional)
-
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate    # On Windows
-
-4️⃣ Install Dependencies
-
+### 2️⃣ Install Dependencies  
+```sh
 pip install -r requirements.txt
+```
 
-🚀 Running the Application
+### 3️⃣ Run the Forecasting Script  
+```sh
+python forecasting.py
+```
 
-1️⃣ Prepare the Dataset
+### 4️⃣ Use the AI Sales Advisor Chatbot  
+```sh
+python chatbot.py
+```
 
-Ensure that the following CSV files are available inside the data/ folder:
+---
 
-Rossmann_Stores_Data.csv (Sales data)
+## 📊 Usage Guide  
 
-store.csv (Store details)
+### 📌 Running Sales Forecasting  
+1️⃣ Load sales and store data from the `data/` folder.  
+2️⃣ The script preprocesses the data, detects trends, and trains ML models.  
+3️⃣ The trained models generate **monthly sales predictions**.  
+4️⃣ Visualizations are saved in the `Images/` folder.  
 
-2️⃣ Run the Forecasting Script
+### 🤖 Using the AI Sales Advisor  
+1️⃣ The chatbot analyzes sales trends.  
+2️⃣ It provides insights on **demand fluctuations, peak seasons, and stock recommendations**.  
+3️⃣ AI-generated reports help store managers in **inventory planning**.  
 
-python main.py
+---
 
-The script will:
+## 📊 Sample Output  
 
-Load and preprocess sales and store data.
+🔹 **Sales Trend Visualization**  
+![Sales Trend](https://res.cloudinary.com/dbvwxphvw/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1742083220/monthly_sales_trend_ugp3q9.png)
 
-Train ARIMA, Prophet, and XGBoost models.
+🔹 **AI Chatbot Insights**  
+```
+📈 "🤖 AI Sales Advisor Insights  
 
-Generate sales trend visualizations.
+📊 **Key Findings**  
+- **2014 Sales Drop:** Significant decline from **July onwards**, possibly due to market shifts, competition, or operational changes.  
+- **Seasonality Trends:** Sales peak in **March, July, and December**, requiring validation.  
+- **2015 Recovery:** Signs of growth, but addressing 2014’s decline is crucial.  
 
-Use AI (Gemini API) to provide insights.
+🎯 **Recommendations**  
+✅ **Investigate 2014 Decline:** Analyze market, competition, and internal factors.  
+✅ **Optimize Inventory:** Adjust stock levels based on demand cycles.  
+✅ **Enhance Sales Strategy:** Target seasonal peaks with promotions & pricing adjustments.  
+✅ **Implement AI Forecasting:** Use ARIMA, Prophet, or LSTM for accurate projections.  
 
-3️⃣ View the AI Sales Advisor Insights
+📈 **Next Steps**  
+Once **"monthly_sales_trend.png"** is reviewed:  
+🔹 Confirm seasonality & trends  
+🔹 Detect anomalies & refine forecasts  
+🔹 Adjust strategies for sustainable growth  
 
-After execution, the chatbot will generate strategic insights about sales trends, inventory management, and forecasting accuracy. You will see output like:
+**2014’s drop is a challenge, but 2015 shows potential. Strategic action can drive recovery and future growth.** 🚀"
+```
 
-🤖 Sales Advisor Insights:
-- Expected demand increase in Q2 due to seasonal trends.
-- Inventory adjustment recommendations to reduce stockout risks.
-- Suggested promotional offers based on past sales trends.
+---
 
-4️⃣ Visualize the Sales Trend
+## 💡 Future Enhancements  
+🔹 Improve forecast accuracy with **hybrid models**  
+🔹 Implement a **real-time sales monitoring dashboard**  
+🔹 Add **automated chatbot responses for business queries**  
 
-The generated sales trend plot is saved in Images/monthly_sales_trend.png. Open it to analyze the trends.
+---
 
-🏆 Key Components Explained
+## 📝 License  
+This project is licensed under the **MIT License**. Feel free to use and improve it!  
 
-🔹 Machine Learning Models
+👨‍💻 **Developed by Suresh Kumar G** | 🚀 **GitHub:** [surexh-exe](https://github.com/surexh-exe)  
 
-ARIMA: Used for time-series forecasting.
-
-Prophet: Facebook’s open-source model for time-series analysis.
-
-XGBoost: A powerful gradient boosting model optimized for regression.
-
-🔹 AI-Powered Sales Advisor Chatbot
-
-Uses Google’s Gemini AI to generate sales insights.
-
-Accepts sales data and trend visualizations as input.
-
-Provides recommendations on inventory and demand trends.
-
-❓ Troubleshooting & FAQs
-
-1️⃣ "ModuleNotFoundError: No module named 'tensorflow'"
-
-Run:
-
-pip install tensorflow
-
-2️⃣ "FileNotFoundError: No such file or directory: 'data/Rossmann_Stores_Data.csv'"
-
-Ensure that your dataset files are placed in the data/ folder.
-
-3️⃣ How to update API key for Gemini AI?
-
-Replace the API key in main.py:
-
-API_KEY = "your_new_api_key_here"
-genai.configure(api_key=API_KEY)
-
-👨‍💻 Contributing
-
-Feel free to contribute to the project! Fork the repo, make changes, and submit a pull request.
-
-🏆 Acknowledgments
-
-Data Source: Rossmann Stores Dataset
-
-Libraries: Pandas, NumPy, TensorFlow, Prophet, XGBoost
-
-AI API: Google Gemini
-
-📜 License
-
-This project is licensed under the MIT License.
-
-📬 Contact
-
-For any questions or issues, feel free to reach out via GitHub Issues.
