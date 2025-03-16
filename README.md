@@ -1,7 +1,5 @@
 # 📊 Demand Forecasting for Grocery Stores with AI-powered Sales Advisor 🤖  
 
-![Sales Forecasting]([https://your-image-url-here.com](https://images.pexels.com/photos/7947758/pexels-photo-7947758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)) 
-
 ## 📌 Project Overview  
 This project leverages **machine learning** and **deep learning** techniques to **predict grocery store sales** based on historical data. It also integrates an **AI-powered Sales Advisor Chatbot** using **Gemini AI**, which provides strategic insights to optimize inventory and sales planning.  
 
@@ -77,7 +75,7 @@ python chatbot.py
 ## 📊 Sample Output  
 
 🔹 **Sales Trend Visualization**  
-![Sales Trend](https://res.cloudinary.com/dbvwxphvw/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1742083220/monthly_sales_trend_ugp3q9.png)
+![Sales Trend](https://res.cloudinary.com/dbvwxphvw/image/upload/v1742083220/monthly_sales_trend_ugp3q9.png)
 
 🔹 **AI Chatbot Insights**  
 ```
